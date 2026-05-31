@@ -1,0 +1,49 @@
+.banner {
+  background: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=400') center/cover;
+  height: 180px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.overlay p {
+  font-size: 13px;
+  margin: 0 0 15px 0;
+  opacity: 0.9;
+}
+
+.btn {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

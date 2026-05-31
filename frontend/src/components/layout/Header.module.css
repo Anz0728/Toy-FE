@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.navLinks li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.navLinks li:hover {
+  color: #ff6b6b;
+}

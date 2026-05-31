@@ -1,0 +1,23 @@
+.login-page {
+    width: 390px;
+    min-height: 844px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+}
+
+.login-page__title {
+    position: absolute;
+    top: 251px;
+    left: 88px;
+    width: 231px;
+    height: 83px;
+    font-family: 'Bakbak One';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0px;
+    color: #4B164C;
+    margin: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
